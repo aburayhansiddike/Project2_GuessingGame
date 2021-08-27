@@ -9,10 +9,10 @@ public class Main {
         GetTheMovie getTheMovie = new GetTheMovie();
         String nameOfMovie = getTheMovie.nameOfMovie();
         int lengthOfMovie = getTheMovie.lengthOfMovie(nameOfMovie);
-        System.out.println(nameOfMovie);
+        //System.out.println(nameOfMovie);
         StringBuffer nameOfMovieWithUnderScore = new StringBuffer(nameOfMovie);
         nameOfMovieWithUnderScore = getTheMovie.convertMovieNameWithUnderScore(nameOfMovieWithUnderScore);
-        System.out.println(nameOfMovieWithUnderScore);
+       // System.out.println(nameOfMovieWithUnderScore);
 
         StringBuffer wrongInputCharacter = new StringBuffer();
         int life = 10 , wrongInputNumber = 0;
